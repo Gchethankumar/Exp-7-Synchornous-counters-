@@ -134,4 +134,4 @@ DOWN COUNTER:
 
 
 ### RESULTS 
-Thus, The Synchornous counters of up counter and down counter circuit are studied and the truth table for different logic gates are verified.
+Thus, The Synchornous counters of up counter and down counter circuit are studied and the truth table for different logic gates are Successfully verified.
