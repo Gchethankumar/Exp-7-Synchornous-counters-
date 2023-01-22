@@ -3,15 +3,15 @@
 
 To implement a 4 bit up and down counters and validate  functionality.
 
-### HARDWARE REQUIRED:  
+### Hardware required:  
 
 PC, Cyclone II , USB flasher.
 
-### SOFTWARE REQUIRED:  
+### Software required:  
 
 Quartus prime.
 
-### THEORY 
+### Theory
 
 
 #### UP COUNTER: 
@@ -49,7 +49,8 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 ![image](https://user-images.githubusercontent.com/36288975/169644844-1a14e123-7228-4ed8-81a9-eb937dff4ac8.png)
 
-### PROCEDURE
+### Procedure:
+
 ```
 1. Create a new project in QuartusII software.
 
@@ -69,7 +70,8 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 ```
 
-### PROGRAM 
+### Program:
+
 ```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: G.Chethan Kumar
@@ -103,35 +105,42 @@ end
 assign counter=counter_down;
 endmodule
 ```
-### RTL LOGIC FOR COUNTERS  
-UP COUNTER:
+
+### Output:
+
+### RTL logic for counters:
+
+UP Counter:
 
 ![Screenshot_20230115_113428](https://user-images.githubusercontent.com/118348224/212559284-cd964704-5b26-4517-93de-fd750b3f444a.png)
 
-DOWN COUNTER:
+DOWN Counter:
 
 ![Screenshot_20230115_115750](https://user-images.githubusercontent.com/118348224/212559927-c5a762aa-4e47-4aac-bc93-8e901ac628a0.png)
 
 
-### TIMING DIGRAMS FOR COUNTERS 
-UP COUNTER:
+### Timing diagram for Counters:
+
+UP Counter:
 
 ![Screenshot_20230115_113743](https://user-images.githubusercontent.com/118348224/212559426-db00c9d9-9a82-47ff-8ce4-9461b095d07b.png)
 
-DOWN COUNTER:
+DOWN Counter:
 
 ![Screenshot_20230115_115634](https://user-images.githubusercontent.com/118348224/212559943-c612cf1f-1252-4b04-80a8-abd7d7723aba.png)
 
 
-### TRUTH TABLE FOR COUNTERS
-UP COUNTER:
+### Truthtable for Counters:
+
+UP Counter:
 
 ![Screenshot_20230116_120533](https://user-images.githubusercontent.com/118348224/212560265-e1d4ae17-d18f-43a3-85b9-d2b0dd68e6be.png)
 
-DOWN COUNTER:
+DOWN Counter:
 
 ![Screenshot_20230116_121816](https://user-images.githubusercontent.com/118348224/212560893-cb9cdbe0-9a57-4fdf-8b13-2eb7e1b5883c.png)
 
 
-### RESULTS 
-Thus, The Synchornous counters of up counter and down counter circuit are studied and the truth table for different logic gates are Successfully verified.
+### Result:
+
+Thus, the Synchornous counters of up counter and down counter circuit are studied and the truth table for different logic gates are Successfully verified.
