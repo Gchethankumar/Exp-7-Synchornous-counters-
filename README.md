@@ -14,7 +14,7 @@ Quartus prime.
 ### Theory
 
 
-#### UP COUNTER: 
+#### UP counter: 
 The counter is a digital sequential circuit and here it is a 4 bit counter, which simply means it can count from 0 to 15 and vice versa based upon the direction of counting (up/down). 
 
 The counter (“count“) value will be evaluated at every positive (rising) edge of the clock (“clk“) cycle.
@@ -39,7 +39,7 @@ Four-bit “Up” Counter:
 
 
 
-#### DOWN COUNTER: 
+#### DOWN counter: 
 
 As well as counting “up” from zero and increasing or incrementing to some preset value, it is sometimes necessary to count “down” from a predetermined value to zero allowing us to produce an output that activates when the zero count or some other pre-set value is reached.
 
@@ -77,7 +77,7 @@ Program for flipflops  and verify its truth table in quartus using Verilog progr
 Developed by: G.Chethan Kumar
 RegisterNumber:  22005596
 ```
- UP COUNTER:
+ UP counter:
 ```
 module upcounter(input clk,input reset,output[0:3]counter);
 reg[0:3] counter_up;
@@ -91,7 +91,7 @@ end
 assign counter=counter_up;
 endmodule
 ```
-DOWN COUNTER:
+DOWN counter:
 ```
 module downcounter(input clk,input reset,output[0:3]counter);
 reg[0:3] counter_down;
@@ -121,11 +121,11 @@ DOWN Counter:
 
 ### Timing diagram for Counters:
 
-UP Counter:
+UP counter:
 
 ![Screenshot_20230115_113743](https://user-images.githubusercontent.com/118348224/212559426-db00c9d9-9a82-47ff-8ce4-9461b095d07b.png)
 
-DOWN Counter:
+DOWN counter:
 
 ![Screenshot_20230115_115634](https://user-images.githubusercontent.com/118348224/212559943-c612cf1f-1252-4b04-80a8-abd7d7723aba.png)
 
