@@ -138,7 +138,8 @@ UP Counter:
 
 DOWN Counter:
 
-![Screenshot_20230116_121816](https://user-images.githubusercontent.com/118348224/212560893-cb9cdbe0-9a57-4fdf-8b13-2eb7e1b5883c.png)
+![Screenshot_20230205_125250](https://user-images.githubusercontent.com/118348224/216806894-a2a50eec-1ed9-4b6b-9dc4-1ab78ac260ae.png)
+
 
 
 ### Result:
